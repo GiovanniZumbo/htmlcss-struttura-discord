@@ -9,7 +9,7 @@
 /* utilities */
 
 .section {
-    height: 400px;
+    height: 500px;
     width: 100%;
     display: flex;
 }
@@ -18,6 +18,9 @@
 
 header>* {
     border: 2px dotted white;
+    height: 400px;
+    width: 100%;
+    display: flex;
 }
 
 .top-bar {
