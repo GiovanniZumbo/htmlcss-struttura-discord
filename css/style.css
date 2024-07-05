@@ -1,0 +1,49 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utilities */
+
+.section {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+/* Header */
+
+header>* {
+    border: 2px dotted white;
+}
+
+.top-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(51, 181, 224);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px dotted white;
+}
+
+.top-menu {
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-content {
+    height: 250px;
+    flex-basis: 400px;
+    background-color: orange;
+}
