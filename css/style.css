@@ -8,12 +8,12 @@
 
 /* utilities */
 
-.odd {
+.container>:nth-child(odd) {
     background-color: rgb(240, 152, 152);
 }
 
-.even {
-    background-color: grey;
+.container>:nth-child(even) {
+    background-color: rgb(145, 141, 141);
 }
 
 .section {
@@ -80,4 +80,12 @@ header>* {
 .right-content {
     flex-grow: 1;
     background-color: rgb(230, 230, 126);
+}
+
+.last-section {
+    height: 650px;
+}
+
+#btm-sec {
+    background-color: lightgrey;
 }
