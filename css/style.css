@@ -8,16 +8,31 @@
 
 /* utilities */
 
+.odd {
+    background-color: rgb(240, 152, 152);
+}
+
+.even {
+    background-color: grey;
+}
+
 .section {
     height: 500px;
     width: 100%;
     display: flex;
+    border: 2px dashed black;
+    padding: 50px;
+    justify-content: center;
+}
+
+.switch {
+    flex-direction: row-reverse;
 }
 
 /* Header */
 
 header>* {
-    border: 2px dotted white;
+    border: 2px dashed white;
     height: 400px;
     width: 100%;
     display: flex;
@@ -31,7 +46,6 @@ header>* {
     padding: 10px;
     justify-content: space-between;
     align-items: center;
-    border: 2px dotted white;
 }
 
 .top-menu {
@@ -49,4 +63,21 @@ header>* {
     height: 250px;
     flex-basis: 400px;
     background-color: orange;
+}
+
+/* body */
+
+.section-body {
+    flex-basis: 70%;
+    display: flex;
+}
+
+.left-content {
+    flex-basis: 35%;
+    background-color: aquamarine;
+}
+
+.right-content {
+    flex-grow: 1;
+    background-color: rgb(230, 230, 126);
 }
