@@ -17,11 +17,11 @@
 }
 
 .section {
-    height: 500px;
+    height: 400px;
     width: 100%;
     display: flex;
     border: 2px dashed black;
-    padding: 50px;
+    padding: 50px 0;
     justify-content: center;
 }
 
@@ -88,4 +88,49 @@ header>* {
 
 #btm-sec {
     background-color: lightgrey;
+}
+
+/* footer */
+
+footer {
+    height: 500px;
+    background-color: rgb(15, 15, 15);
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    flex-basis: 70%;
+}
+
+
+.upper-footer {
+
+    background-color: grey;
+    display: flex;
+    height: 100%;
+}
+
+.social {
+    flex-grow: 1;
+    background-color: red;
+}
+
+.btm-menu {
+    flex-basis: 70%;
+    background-color: orangered;
+    display: flex;
+}
+
+.column-menu {
+    border: 2px white dashed;
+    flex-basis: 25%;
+}
+
+.lower-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(226, 226, 84);
+    padding: 15px 5px;
 }
